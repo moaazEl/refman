@@ -1,0 +1,24 @@
+{
+  "name": "refman",
+  "version": "0.1.0",
+  "description": "Your personal Griffith APA reference workspace",
+  "main": "src/main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "package": "node scripts/package.cjs"
+  },
+  "dependencies": {
+    "@openai/codex": "^0.160.0",
+    "docx": "^9.5.1",
+    "mammoth": "^1.13.0",
+    "pdf-parse": "^1.1.1",
+    "sql.js": "^1.13.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^19.0.0",
+    "electron": "^38.0.0",
+    "playwright": "^1.55.0"
+  }
+}

@@ -1,0 +1,2 @@
+const assert=require('node:assert/strict');const {lookupSource}=require('../src/intake.cjs');
+(async()=>{const s=await lookupSource('10.1038/s41586-020-2649-2');assert.ok(s.title);assert.ok(s.authors.length);assert.equal(s.doi,'10.1038/s41586-020-2649-2');assert.ok(s.verification.length);console.log(JSON.stringify({title:s.title,year:s.year,authors:s.authors.length,verification:s.verification,missing:s.missing},null,2));})().catch(e=>{console.error(e.message);process.exitCode=1});
