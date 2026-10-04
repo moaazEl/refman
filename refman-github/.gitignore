@@ -1,0 +1,16 @@
+node_modules/
+dist/
+work/
+.DS_Store
+*.log
+.env
+.env.*
+*.refman/
+project.sqlite
+project.json
+project.txt
+attachments/
+versions/
+codex-auth/
+auth.json
+recent.json
