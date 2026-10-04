@@ -6,6 +6,12 @@ Refman is a Mac desktop app for organising sources by assignment, taking notes, 
 
 ![Refman in dark mode, with a demonstration project](refman-github/images/refman-dark.png)
 
+## Quick-start video
+
+**[Watch the 88-second captioned guide](https://github.com/moaazEl/refman/releases/download/v0.1.0/Refman-Quick-Start.mp4)** · [Read the transcript](https://github.com/moaazEl/refman/releases/download/v0.1.0/Refman-Quick-Start-Transcript.md)
+
+A silent visual guide covering projects, sources, notes, citations, Word updates, backups and dark mode. Uses demonstration data; pause whenever you need.
+
 ## Download the app
 
 **[Download Refman 0.1.0 — friends beta](https://github.com/moaazEl/refman/releases/tag/v0.1.0)**
